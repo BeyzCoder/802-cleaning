@@ -1,7 +1,7 @@
 header {
 	height: 80px;
 	width: 100%;
-	background-color: #F4D35E;
+	background-color: #edede9;
 	box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.5); /* Bottom shadow */
 
 	display: flex;
@@ -21,7 +21,7 @@ span {
 }
 
 .navigation-routes {
-	flex: 1;
+	width: 75vh;
 	display: flex;
 	justify-content: space-evenly;
 	margin-right: 75px;

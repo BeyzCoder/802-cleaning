@@ -7,4 +7,5 @@ body {
   font-style: normal;
 
   color: rgb(60,60,60);
+  overflow: hidden;
 }
