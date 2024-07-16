@@ -1,10 +1,12 @@
 import "../styles/landing.css";
 import windowClean from "../images/window-cleaning-service.jpg";
+// import bubbleBackground from "../images/water-bubble-background.webp";
+import bubbleBackground from "../images/blue-bubble-background.png";
 
 const Landing = () => {
 
 	return (
-		<section>
+		<section className="hero-section">
 			<div className="center-con">
 				<div className="headline-container">
 					<div className="slogan-line">
@@ -24,9 +26,11 @@ const Landing = () => {
 						</ul>
 					</div>
 				</div>
+				<img src={bubbleBackground} className="bubble-left" />
+				<img src={bubbleBackground} className="bubble-right" />
 			</div>
 			<div className="headline-image">
-				<img src={windowClean} />
+				<img src={windowClean} className="landing-img" />
 			</div>
 		</section>
 	);

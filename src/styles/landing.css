@@ -1,4 +1,4 @@
-section {
+.hero-section {
     background-color: #e0e0e0;
     display: flex;
     height: 80vh;
@@ -9,10 +9,39 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.bubble-left,
+.bubble-right {
+    position: absolute;
+    display: block;
+    height: 700px;
+    width: 450px;
+    opacity: .8;
+}
+
+.bubble-left {
+    left: -12%;
+    top: 1%;
+    transform: rotate(-5deg);
+}
+
+.bubble-right {
+    bottom: -17%;
+    right: 13%;
+    transform: scaleX(-1);
+    transform: rotate(90deg);
 }
 
 .headline-container {
-    padding: 50px ;
+    padding: 25px ;
+    margin: 25px;
+    z-index: 10;
+    background-color: rgba(219, 219, 219, 0.1);
+	backdrop-filter: blur(2px);
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 20px -1px rgba(0, 0, 0, 0.2); */
 }
 
 .slogan-line {
@@ -43,9 +72,9 @@ section {
 .desc p {
     margin: 0;
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 700px;
-    color: rgba(41, 41, 41, 0.6);
+    color: rgb(32, 32, 32);
 }
 
 .social-contacts {
@@ -60,7 +89,7 @@ section {
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     list-style: none;
     max-width: 700px;
 }
@@ -74,9 +103,10 @@ section {
 
 .headline-image img {
     display: block;
-    width: 85%;
+    width: 80%;
     border-radius: 5px;
-    box-shadow: 5px 4px 6px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 5px 1px rgba(33, 68, 125, 0.7);
+    z-index: 10;
 }
 
 /* 1300px width display flex-direction column */
