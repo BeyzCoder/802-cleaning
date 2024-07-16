@@ -1,37 +1,87 @@
 header {
-	height: 80px;
-	width: 100%;
-	background-color: #edede9;
-	box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.5); /* Bottom shadow */
-
+	background-color: #e0e0e0;
 	display: flex;
-	justify-content: space-between;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+}
+
+.name-container {
+	display: flex;
 	align-items: center;
+	padding: 0 30px;
+	margin-right: auto;
+	width: 300px;
 }
 
-.business-headline {
-	flex: 1;
-	display: flex;
-	margin-left: 75px;
-}
-
-span {
+.bus-name {
+	font-size: 1.2rem;
 	font-weight: 700;
-	font-size: 27px;
+	color: #0040a0;
 }
 
-.navigation-routes {
-	width: 75vh;
+nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
 	display: flex;
-	justify-content: space-evenly;
-	margin-right: 75px;
 }
 
-a {
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 500;
+nav li {
+	height: 70px;
+}
+
+nav a {
+	height: 100%;
+	padding: 0 40px;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 	color: rgb(60, 60, 60);
+	font-size: 1rem;
+	font-weight: 500;
 }
 
+nav a:hover {
+	background-color: rgba(111, 111, 111, .2);
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 250px;
+	z-index: 999;
+	background-color: rgba(224, 224, 224, 0.7);
+	backdrop-filter: blur(10px);
+	box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.sidebar li,
+.sidebar a {
+	width: 100%;
+}
+
+.menu-btn {
+	display: none;
+}
+
+@media(max-width: 835px) {
+	.menu-btn {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none;
+	}
+}
+
+@media(max-width: 400px) {
+	.sidebar {
+		width: 100%;
+	}
+}
