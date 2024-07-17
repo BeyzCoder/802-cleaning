@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import businessLogo from "../images/pixelcut-export.png";
 import "../styles/header.css";
 
 const Header = () => {
@@ -20,6 +21,9 @@ const Header = () => {
 		<header>
 			<div className="name-container">
 				<span className="bus-name">802 WINDOW CLEANING</span>
+			</div>
+			<div className="logo-container">
+				<img src={businessLogo} />
 			</div>
 			<nav>
 				<ul ref={sideBarRef} className="sidebar">

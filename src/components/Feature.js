@@ -23,7 +23,7 @@ const Feature = () => {
                 </div>
                 <div className="dirt-details">
                     <img src={spotWindow} className="dirt-image"></img>
-                    <p>After the rain, does your windows leaves a lot of rain stops to tired to remove.</p>
+                    <p>After the rain, does your windows leaves a lot of rain spots to tired to remove.</p>
                 </div>
             </div>
             <div className="solution-title">
@@ -32,7 +32,7 @@ const Feature = () => {
             <div className="equipment-images">
                 <div className="equipment-details">
                     <img src={filterEquip} className="equipment-image" />
-                    <p>We got a filter tank that makes water pure that leaves no stains.</p>
+                    <p>We got a filter tank that makes water pure that leaves no stains when it gets dry.</p>
                 </div>
                 <div className="equipment-details">
                     <img src={speedEquip} className="equipment-image" />
@@ -42,6 +42,11 @@ const Feature = () => {
                     <img src={hoseEquip} className="equipment-image" />
                     <p>We got long hose for us to clean large houses.</p>
                 </div>
+            </div>
+            <div class="custom-shape-divider-bottom-1721183501">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                </svg>
             </div>
         </section>
     );

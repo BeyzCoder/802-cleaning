@@ -1,6 +1,7 @@
 header {
 	background-color: #e0e0e0;
 	display: flex;
+	justify-content: space-between;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 	margin: 0;
 }
@@ -9,14 +10,24 @@ header {
 	display: flex;
 	align-items: center;
 	padding: 0 40px;
-	margin-right: auto;
 	width: 300px;
 }
 
 .bus-name {
 	font-size: 1.3rem;
 	font-weight: 700;
-	color: #0040a0;
+	color: #0f758e;
+}
+
+.logo-container {
+	height: 100%;
+	padding: 0 35px;
+}
+
+.logo-container img {
+	height: 60px;
+	width: 190px;
+	object-fit: cover;
 }
 
 nav ul {
@@ -33,7 +44,7 @@ nav li {
 
 nav a {
 	height: 100%;
-	padding: 0 50px;
+	padding: 0 30px;
 	text-decoration: none;
 	display: flex;
 	align-items: center;
@@ -72,6 +83,9 @@ nav a:hover {
 }
 
 @media(max-width: 980px) {
+	.name-container {
+		display: none;
+	}
 	.menu-btn {
 		display: block;
 	}

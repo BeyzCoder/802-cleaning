@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 15px 0;
+    position: relative;
 }
 
 .question-title {
@@ -73,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 70px;
 }
 
 .equipment-details {
@@ -97,4 +99,26 @@
     font-size: 1.2rem;
     font-weight: 400;
     min-height: 80px;
+}
+
+/* divider */
+
+.custom-shape-divider-bottom-1721183501 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1721183501 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1721183501 .shape-fill {
+    fill: #e0e0e0;
 }
