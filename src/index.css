@@ -8,3 +8,8 @@ body {
 
   color: rgb(60,60,60);
 }
+
+.review-section {
+  padding: 50px;
+  background-color: #e0e0e0;
+}

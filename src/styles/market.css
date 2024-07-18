@@ -1,0 +1,59 @@
+.market-section {
+    background-image: url("../images/background-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glassy-black {
+    margin: 170px;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(234, 234, 234, 0.5);
+}
+
+.tagline {
+    margin: 10px;
+    padding: 10px 50px;
+    border-bottom: 1px solid black;
+}
+
+.tagline h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.divider-con {
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.address {
+    flex: 1;
+    margin: 40px;
+    max-width: 250px;
+}
+
+.address span {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 40px;
+    max-width: 250px;
+}
+
+.contact-details span {
+    font-size: 1.1rem;
+    font-weight: 400;
+}

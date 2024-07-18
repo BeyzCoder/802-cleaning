@@ -58,7 +58,7 @@
 
 .slider-track {
     display: flex;
-    animation: 30s slide infinite linear;
+    animation: 25s slide infinite linear;
 }
 
 @keyframes slide {
